@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: prediction-model
+Version: 1.0.0
+Summary: Loan Prediction Model
+Home-page: https://github.com/oladiiposaheed
+Author: Oladiipo Saheed
+Author-email: oladiiposaheed@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+
+
+
+
+## Virtual Environment
+Intall virtualenv
+
+'''python
+python3 -m pip install virtualenv
+'''
+
+Check the version
+'''python
+virtualenv --version
+'''
+
+Create virtual environment
+'''python
+py -m venv ml_package
+     OR
+virtualenv my_package
+'''
+
+Activate virtual environment
+
+For windows
+'''python
+ml_package\Scripts\activate.bat
+'''
+
+For Linux/MacOs
+'''python
+source my_package/bin/activate
